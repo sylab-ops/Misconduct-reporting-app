@@ -20,4 +20,10 @@ public class Homepage extends AppCompatActivity {
         finish();
     }
 
+    public void gotoInformationPage(View view) {
+        Intent i=new Intent(getBaseContext(), InformationPage.class);
+        startActivity(i);
+//        finish();
+    }
+
 }
