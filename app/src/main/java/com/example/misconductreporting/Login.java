@@ -20,4 +20,9 @@ public class Login extends AppCompatActivity {
         finish();
     }
 
+    public void gotoHomepage(View view) {
+        Intent intent1 = new Intent(this, Homepage.class);
+        startActivity(intent1);
+        finish();
+    }
 }

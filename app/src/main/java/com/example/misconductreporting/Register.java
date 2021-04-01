@@ -19,4 +19,10 @@ public class Register extends AppCompatActivity {
         startActivity(intent1);
         finish();
     }
+
+    public void gotoHomepage(View view) {
+        Intent intent1 = new Intent(this, Homepage.class);
+        startActivity(intent1);
+        finish();
+    }
 }
