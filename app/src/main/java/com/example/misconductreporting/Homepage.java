@@ -26,4 +26,10 @@ public class Homepage extends AppCompatActivity {
 //        finish();
     }
 
+    public void gotoContactPage(View view) {
+        Intent i=new Intent(getBaseContext(), ContactPage.class);
+        startActivity(i);
+//        finish();
+    }
+
 }
