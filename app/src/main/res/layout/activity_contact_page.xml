@@ -120,6 +120,7 @@
                             android:layout_marginRight="16dp"
                             android:layout_weight="1"
                             android:backgroundTint="#32BC9C"
+                            android:onClick="onClickContact"
                             android:text="Contact"
                             app:cornerRadius="90dp" />
 
@@ -176,6 +177,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
                     android:backgroundTint="#32BC9C"
+                    android:onClick="onClickContact"
                     android:text="Contact"
                     app:cornerRadius="90dp" />
 
@@ -229,6 +231,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
                     android:backgroundTint="#32BC9C"
+                    android:onClick="onClickContact"
                     android:text="Contact"
                     app:cornerRadius="90dp" />
 
@@ -282,6 +285,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
                     android:backgroundTint="#32BC9C"
+                    android:onClick="onClickContact"
                     android:text="Contact"
                     app:cornerRadius="90dp" />
 
