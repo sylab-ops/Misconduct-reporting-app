@@ -8,13 +8,48 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circles" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/textView6"
+        android:layout_marginTop="25dp"
+        android:maxWidth="90dp"
+        android:maxHeight="90dp"
+        app:srcCompat="@drawable/harrass_1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="With the app, you can even report incidents you have witnessed, something that you’ve been made aware of, maybe it’s not happening personally to you but it’s happening to somebody that you know. You can also seek for support or guidance from experts. Sometimes it takes somebody speaking up for somebody else from his/her misconduct or harassment to even be addressed." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_marginBottom="30dp"
+        android:text="Misconduct Reporting App"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
 
     <!--    Button: Register-->
+
+
+    <!--    Button: Login-->
+
     <Button
         android:id="@+id/register_btn"
         android:layout_width="match_parent"
@@ -23,9 +58,6 @@
         android:background="@drawable/rounded_button"
         android:text="Register"
         android:textColor="#FFFFFF" />
-
-
-    <!--    Button: Login-->
 
     <Button
         android:id="@+id/login_btn"
