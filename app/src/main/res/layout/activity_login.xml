@@ -13,6 +13,12 @@
 
     <!--TextInputLayout-->
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circles" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,27 +88,27 @@
         ></com.google.android.gms.common.SignInButton>
 
 
-
     <TextView
         android:id="@+id/recoverPassTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:hint="Forgot Password? Don't worry, we will help you recover it!"
         android:layout_below="@id/login_btn"
         android:layout_marginTop="20dp"
-        android:textColor="#000"/>
+        android:hint="Forgot Password? Don't worry, we will help you recover it!"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
 
     <!--Click: To go to RegisterActivity-->
     <TextView
         android:id="@+id/notHave_accountTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Not have an account? Register"
         android:layout_alignParentBottom="true"
-        android:textAlignment="center"
         android:layout_marginTop="30dp"
-        android:textColor="#000"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:text="Not have an account? Register"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
 
 </RelativeLayout>

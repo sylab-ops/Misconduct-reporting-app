@@ -17,7 +17,6 @@
     <!--        android:text="Home" />-->
 
 
-
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -57,6 +56,12 @@
 
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/circles" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +85,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="#E2FBF5">
 
                             <ImageView
                                 android:id="@+id/diary"
@@ -120,7 +126,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="#E2FBF5">
 
                             <ImageView
                                 android:id="@+id/chat"
@@ -168,7 +175,8 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="-5dp">
+                            android:layout_marginTop="-5dp"
+                            android:background="#AEFBE9">
 
                             <ImageView
                                 android:id="@+id/contact"
@@ -209,7 +217,8 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="-10dp">
+                            android:layout_marginTop="-10dp"
+                            android:background="#AEFBE9">
 
                             <ImageView
                                 android:id="@+id/information"
@@ -256,7 +265,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="#5AE7C6">
 
                             <ImageView
                                 android:id="@+id/setting"
@@ -290,7 +300,8 @@
 
                         <RelativeLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="match_parent"
+                            android:background="#5AE7C6">
 
                             <ImageView
                                 android:id="@+id/settings"
