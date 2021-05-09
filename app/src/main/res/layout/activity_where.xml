@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhereActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sided_circle">
+    </ImageView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user_img"
+            app:civ_border_color="#ffff"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:text="Welcome, Olivia!"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="16dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="501dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.52">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="326dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginRight="90dp"
+            android:src="@drawable/where"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="390dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="120dp"
+            android:text="Where did the incident took place?"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="218dp">></TextView>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="335dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/textView"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Tap here to add the location"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="20dp"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="73dp"
+        android:text="Next"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,6 @@
         android:width="150dp"
         android:background="@drawable/rounded_button"
         android:text="next"
-        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

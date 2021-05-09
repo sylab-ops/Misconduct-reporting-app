@@ -17,6 +17,7 @@
     <!--        android:text="Home" />-->
 
 
+
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -26,7 +27,7 @@
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="#EEEEEE">
+            android:background="@color/colorPrimary">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,12 +57,6 @@
 
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/circles" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +68,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="153dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="#92F1DD">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
@@ -86,7 +82,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#E2FBF5">
+                            android:background="#92F1DD">
 
                             <ImageView
                                 android:id="@+id/diary"
@@ -96,7 +92,6 @@
                                 android:src="@drawable/diary"></ImageView>
 
                             <TextView
-                                android:id="@+id/txtdiary"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/diary"
@@ -127,7 +122,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#E2FBF5">
+                            android:background="#92F1DD">
 
                             <ImageView
                                 android:id="@+id/chat"
@@ -137,7 +132,6 @@
                                 android:src="@drawable/chat"></ImageView>
 
                             <TextView
-                                android:id="@+id/txtchat"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/chat"
@@ -162,7 +156,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="159dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/colorLightGreen">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
@@ -176,17 +171,17 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="-5dp"
-                            android:background="#AEFBE9">
+                            android:background="@color/colorLightGreen">
 
                             <ImageView
                                 android:id="@+id/contact"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/contact"></ImageView>
+                                android:src="@drawable/contact"
+                                android:background="@color/colorLightGreen"></ImageView>
 
                             <TextView
-                                android:id="@+id/txtcontact"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/contact"
@@ -201,7 +196,8 @@
                                 android:id="@+id/btncontact"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@android:color/transparent"></Button>
+                                android:background="@android:color/transparent"
+                                android:shadowColor="@color/colorLightGreen"></Button>
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -218,7 +214,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="-10dp"
-                            android:background="#AEFBE9">
+                            android:background="@color/colorLightGreen">
 
                             <ImageView
                                 android:id="@+id/information"
@@ -228,7 +224,6 @@
                                 android:src="@drawable/ic_information_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/txtinformation"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_below="@+id/information"
@@ -253,7 +248,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="153dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
@@ -266,7 +262,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#5AE7C6">
+                            android:background="@color/colorPrimary">
 
                             <ImageView
                                 android:id="@+id/setting"
@@ -301,7 +297,7 @@
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#5AE7C6">
+                            android:background="@color/colorPrimary">
 
                             <ImageView
                                 android:id="@+id/settings"

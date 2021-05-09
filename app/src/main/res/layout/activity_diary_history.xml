@@ -17,7 +17,6 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imageHolder"
             android:layout_width="120dp"
             android:layout_height="150dp"
             android:src="@drawable/user_img"
@@ -25,7 +24,6 @@
             app:civ_border_width="2dp" />
 
         <TextView
-            android:id="@+id/welcomeUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="-10dp"
@@ -79,7 +77,6 @@
 
 
         <Button
-            android:id="@+id/button1"
             android:layout_width="108dp"
             android:layout_height="45dp"
             android:layout_marginStart="194dp"
@@ -87,14 +84,13 @@
             android:layout_marginBottom="12dp"
             android:background="@drawable/rounded_button"
             android:text="view"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorBlack"
             app:layout_constraintBottom_toBottomOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintStart_toStartOf="@+id/textView"
             tools:ignore="MissingConstraints"></Button>
 
         <ImageView
-            android:id="@+id/imageView2"
             android:layout_width="81dp"
             android:layout_height="52dp"
             android:layout_marginLeft="300dp"
@@ -118,7 +114,6 @@
         app:layout_constraintVertical_bias="0.52">
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="390dp"
             android:layout_height="26dp"
             android:layout_marginStart="21dp"
@@ -130,7 +125,6 @@
             tools:layout_editor_absoluteY="218dp">></TextView>
 
         <TextView
-            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
@@ -145,7 +139,6 @@
 
 
         <Button
-            android:id="@+id/button"
             android:layout_width="108dp"
             android:layout_height="45dp"
             android:layout_marginStart="194dp"
@@ -153,11 +146,10 @@
             android:layout_marginBottom="12dp"
             android:background="@drawable/rounded_button"
             android:text="view"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorBlack"
             tools:ignore="MissingConstraints"></Button>
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="81dp"
             android:layout_height="52dp"
             android:layout_marginLeft="300dp"
@@ -169,7 +161,7 @@
 
 
     <Button
-        android:id="@+id/btnaddicon"
+        android:id="@+id/btnNext"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="265dp"
@@ -178,7 +170,6 @@
         android:layout_marginBottom="73dp"
         android:background="@drawable/circle_button"
         android:text="+"
-        android:textColor="#FFFFFF"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

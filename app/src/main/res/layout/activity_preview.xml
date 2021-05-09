@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreviewActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="416dp"
+        android:layout_height="168dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user_img"
+            app:civ_border_color="#ffff"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:text="Welcome, Olivia!"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="16dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="405dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/starthere"
+        app:layout_constraintBottom_toTopOf="@+id/img2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></ImageView>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="406dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/whatprev"
+        app:layout_constraintBottom_toTopOf="@+id/img3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"></ImageView>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="414dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="35dp"
+        android:src="@drawable/whereprev"
+        app:layout_constraintBottom_toTopOf="@+id/img5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2"></ImageView>
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/whenprev"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img5"></ImageView>
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/whoprev"
+        app:layout_constraintBottom_toTopOf="@+id/img4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3"></ImageView>
+
+
+    <Button
+        android:id="@+id/btnNext5"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rounded_button"
+        android:text="Save"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img4"></Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="390dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="1dp"
+        android:text="Summary"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/img1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints">>
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

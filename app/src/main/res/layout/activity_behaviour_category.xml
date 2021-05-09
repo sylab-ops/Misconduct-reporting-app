@@ -6,4 +6,285 @@
     android:layout_height="match_parent"
     tools:context=".BehaviourCategoryActivity">
 
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_marginStart="45dp"-->
+<!--        android:layout_marginTop="153dp"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:src="@drawable/physical"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tvPhysical"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/imageView2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></ImageView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPhysical"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="64dp"-->
+<!--        android:layout_marginTop="9dp"-->
+<!--        android:layout_marginEnd="139dp"-->
+<!--        android:text="Physical"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView4"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/tvVerbal"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView5"></TextView>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="142dp"-->
+<!--        android:layout_height="119dp"-->
+<!--        android:layout_marginStart="87dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_marginEnd="39dp"-->
+<!--        android:layout_marginBottom="9dp"-->
+<!--        android:longClickable="false"-->
+<!--        android:src="@drawable/verbal"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tvVerbal"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView5"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></ImageView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvVerbal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="101dp"-->
+<!--        android:layout_marginBottom="6dp"-->
+<!--        android:text="Verbal"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageView6"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tvPhysical"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView2"-->
+<!--        app:layout_constraintVertical_bias="0.0"></TextView>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="56dp"-->
+<!--        android:layout_marginTop="49dp"-->
+<!--        android:layout_marginEnd="101dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:clickable="true"-->
+<!--        android:onClick="imageView5"-->
+<!--        android:src="@drawable/visual"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tvVisual"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/imageView6"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvPhysical"></ImageView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvVisual"-->
+<!--        android:layout_width="53dp"-->
+<!--        android:layout_height="16dp"-->
+<!--        android:layout_marginStart="105dp"-->
+<!--        android:layout_marginEnd="142dp"-->
+<!--        android:layout_marginBottom="90dp"-->
+<!--        android:text="Visual"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/tvIntegrity"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView4"></TextView>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView6"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="115dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="62dp"-->
+<!--        android:src="@drawable/integrity"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tvIntegrity"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvVerbal"></ImageView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvIntegrity"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="76dp"-->
+<!--        android:layout_marginBottom="90dp"-->
+<!--        android:text="Integrity issues"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/tvVisual"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView6"></TextView>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="420dp"
+        android:layout_height="188dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView2"
+            android:layout_width="235dp"
+            android:layout_height="101dp"
+            android:src="@drawable/user_img"
+            app:civ_border_color="#ffff"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="90dp"
+            android:text="Welcome, Olivia!"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="16dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVerbal"
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:text="Verbal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPhysical"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnPhysical"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="14dp"
+        android:text="Physical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/btnVerbal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btnVisual"
+        android:layout_width="169dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="30dp"
+        android:text="Visual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIntegrity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="143dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/visual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIntegrity"
+        app:layout_constraintStart_toEndOf="@+id/btnVisual"
+        app:layout_constraintTop_toBottomOf="@+id/btnPhysical"></ImageView>
+
+    <Button
+        android:id="@+id/btnIntegrity"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="Integrity issue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnVisual"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="139dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="200dp"
+        android:src="@drawable/verbal"
+        app:layout_constraintBottom_toTopOf="@+id/btnVerbal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="93dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/physical"
+        app:layout_constraintBottom_toTopOf="@+id/btnPhysical"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/btnPhysical"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"></ImageView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="18dp"
+        android:text="Select the behaviour(s) you are reporting"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="119dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/integrity"
+        app:layout_constraintBottom_toTopOf="@+id/btnIntegrity"
+        app:layout_constraintEnd_toStartOf="@+id/btnIntegrity"
+        app:layout_constraintStart_toEndOf="@+id/btnVisual"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerbal"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="441dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="90dp"
+        android:src="@drawable/what"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></ImageView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

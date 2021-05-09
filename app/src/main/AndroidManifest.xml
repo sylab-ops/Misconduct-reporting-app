@@ -13,7 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ContactsActivity"></activity>
+        <activity android:name=".ConfirmAppointmentActivity"></activity>
+        <activity android:name=".createDiaryActivity" />
+        <activity android:name=".PreviewActivity" />
+        <activity android:name=".DesiredoutcomeActivity" />
+        <activity android:name=".WhereActivity" />
+        <activity android:name=".PhysicalActivity" />
+        <activity android:name="com.sylabblueprint.DesiredOutcomeActivity" />
+        <activity android:name=".whoActivity" />
+        <activity android:name=".WhenActivity" />
+        <activity android:name=".WhatActivity" />
+        <activity android:name=".AccountTypeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactsActivity" />
         <activity android:name=".DiaryHistoryActivity" />
         <activity android:name=".BehaviourCategoryActivity" />
         <activity android:name=".ReportTypesActivity" />

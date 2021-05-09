@@ -8,16 +8,14 @@
     tools:context=".RegisterActivity">
 
 
-    <!-- TextView: Label Register -->
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/circles" />
+        android:layout_width="358dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/my_app">
+    </ImageView>
 
-
-    <!--TextInputLayout-->
-
+    <!-- TextView: Label Register -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,6 +24,8 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp" />
 
+
+    <!--TextInputLayout-->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,33 +66,30 @@
 
 
     <!--Button: Register User-->
-
-    <!--Click: To go to LoginActivity-->
-
     <Button
         android:id="@+id/register_btn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@id/passwordTIL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordTIL"
-        android:layout_marginTop="16dp"
-        android:width="400dp"
-        android:background="@drawable/rounded_button"
-        android:drawablePadding="5dp"
         android:text="Register"
-        android:textColor="#ffff">
+        android:width="400dp"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#ffff"
+        android:drawablePadding="5dp"
+        android:background="@drawable/rounded_button">
 
     </Button>
 
+    <!--Click: To go to LoginActivity-->
     <TextView
         android:id="@+id/have_accountTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/register_btn"
-        android:layout_marginTop="30dp"
         android:text="Already have an account? Login"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"></TextView>
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/register_btn"
+        android:textColor="#000"></TextView>
 
 </RelativeLayout>

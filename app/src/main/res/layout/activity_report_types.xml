@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ReportTypesActivity">
 
-    <ImageView
-        android:id="@+id/imageView8"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="72dp"
+        android:textColor="@color/colorBlack"
+        android:text="Are you reporting on your behalf or as a witness?"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnself"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/circles" />
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 
     <Button
         android:id="@+id/btnself"
