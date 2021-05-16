@@ -17,41 +17,45 @@
     <!--        android:text="Home" />-->
 
 
-
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         >
+
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/colorPrimary">
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sided_circle" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:gravity="center"
-                android:orientation="vertical"
-                android:background="@color/colorPrimary">
+                android:orientation="vertical">
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_width="120dp"
                     android:layout_height="150dp"
                     android:src="@drawable/user_img"
-                    app:civ_border_width="2dp"
-                    app:civ_border_color="#ffff"/>
+                    app:civ_border_color="#ffff"
+                    app:civ_border_width="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
                     android:layout_marginTop="-10dp"
-                    android:textAlignment="center"
                     android:text="Welcome, Olivia!"
-                    android:textColor="#ffff">
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp">
 
                 </TextView>
 
@@ -60,29 +64,32 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="210dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="153dp"
-                    android:orientation="horizontal"
-                    android:background="#92F1DD">
+                    android:background="#E2FBF5"
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#92F1DD">
+                            android:background="#E2FBF5">
 
                             <ImageView
                                 android:id="@+id/diary"
@@ -114,15 +121,16 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="#92F1DD">
+                            android:background="#E2FBF5">
 
                             <ImageView
                                 android:id="@+id/chat"
@@ -156,30 +164,31 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="159dp"
-                    android:orientation="horizontal"
-                    android:background="@color/colorLightGreen">
+                    android:background="#AEFBE9"
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="-5dp"
-                            android:background="@color/colorLightGreen">
+                            android:background="#AEFBE9">
 
                             <ImageView
                                 android:id="@+id/contact"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/contact"
-                                android:background="@color/colorLightGreen"></ImageView>
+                                android:background="#AEFBE9"
+                                android:src="@drawable/contact"></ImageView>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -197,7 +206,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@android:color/transparent"
-                                android:shadowColor="@color/colorLightGreen"></Button>
+                                android:shadowColor="#AEFBE9"></Button>
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -205,16 +214,17 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="-10dp"
-                            android:background="@color/colorLightGreen">
+                            android:background="#AEFBE9">
 
                             <ImageView
                                 android:id="@+id/information"
@@ -248,21 +258,22 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="153dp"
-                    android:orientation="horizontal"
-                    android:background="@color/colorPrimary">
+                    android:background="#5AE7C6"
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/colorPrimary">
+                            android:background="#5AE7C6">
 
                             <ImageView
                                 android:id="@+id/setting"
@@ -289,15 +300,16 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="140dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
                         android:layout_weight="1"
-                        app:cardCornerRadius="20dp">
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp">
 
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/colorPrimary">
+                            android:background="#5AE7C6">
 
                             <ImageView
                                 android:id="@+id/settings"

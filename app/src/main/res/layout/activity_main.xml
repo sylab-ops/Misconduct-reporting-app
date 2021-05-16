@@ -17,23 +17,25 @@
     <!--    Button: Register-->
     <Button
         android:id="@+id/register_btn"
-        android:text="Register"
-        android:background="@drawable/rounded_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/login_btn"/>
+        android:layout_above="@+id/login_btn"
+        android:background="@drawable/rounded_button"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
 
 
     <!--    Button: Login-->
 
     <Button
         android:id="@+id/login_btn"
-        android:text="Login"
-        android:width="120dp"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
-        android:background="@drawable/rounded_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:width="120dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="@color/colorWhite" />
 </RelativeLayout>
