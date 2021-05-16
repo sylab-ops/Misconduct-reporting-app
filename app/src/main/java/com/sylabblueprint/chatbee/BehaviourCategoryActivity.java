@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class BehaviourCategoryActivity extends AppCompatActivity {
-
-
-        Button btnPhysical;
+    Button btnPhysical;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +25,4 @@ public class BehaviourCategoryActivity extends AppCompatActivity {
                 }
             });
         }
-
     }
-

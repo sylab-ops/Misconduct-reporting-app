@@ -74,7 +74,7 @@
                 android:layout_height="26dp"
                 android:layout_marginStart="21dp"
                 android:layout_marginTop="120dp"
-                android:text="Where did the incident took place?"
+                android:text="When did the incident took place?"
                 android:textColor="@color/colorBlack"
                 android:textSize="20sp"
                 android:textStyle="bold"
